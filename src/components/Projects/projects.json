@@ -1,0 +1,38 @@
+[
+   {
+         "id": 1, 
+         "title": "Sining Online Gallery", 
+         "liveUrl": "https://edamor.github.io/capstone-1/", 
+         "githubUrl": "https://github.com/edamor/capstone-1",
+         "image": "capstone1",
+         "description": "The quick brown fox jumped over the lazy dog.",
+         "type": "project"
+   },
+   {
+         "id": 2, 
+         "title": "Gym Equipment Manager", 
+         "liveUrl": "https://edamor.github.io/capstone2/", 
+         "githubUrl": "https://github.com/edamor/capstone2",
+         "image": "capstone2", 
+         "description": "The quick brown fox jumped over the lazy dog.",
+         "type": "project"
+   },
+   {
+         "id": 3, 
+         "title": "To Do App", 
+         "liveUrl": "https://edamor.github.io/to-do-app-2/", 
+         "githubUrl": "https://github.com/edamor/to-do-app-2", 
+         "image": "todoapp",
+         "description": "The quick brown fox jumped over the lazy dog.",
+         "type": "project"
+   },
+   {
+         "id": 4, 
+         "title": "Cue MTC Online Store", 
+         "liveUrl": "https://cuemultitrade.com/", 
+         "githubUrl": "undefined", 
+         "image": "cueonlinestore",
+         "description": "The quick brown fox jumped over the lazy dog.",
+         "type": "live"
+   }
+]

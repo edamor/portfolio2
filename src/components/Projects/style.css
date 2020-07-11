@@ -1,0 +1,29 @@
+/* -----------Projects-Styles----------- */
+.projects {
+   grid-column: 1/7;
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+   /* grid-template-columns: repeat(8, 1fr); */
+   grid-gap: 2rem;
+   grid-template-rows: minmax(320px, auto);
+   margin-bottom: 1rem;
+   justify-content: space-evenly;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  .projects {
+     justify-items: center;
+  }
+}
