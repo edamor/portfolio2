@@ -1,0 +1,73 @@
+/* ----------About-Styles---------- */
+.about {
+   /* background-color: rgb(73, 73, 73); */
+   grid-column: span 7;
+   justify-self: center;
+   padding-top: 3rem;
+}
+.about-me {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-gap: 1rem;
+   padding-left: 1rem;
+   padding-right: 1rem;
+   margin-bottom: 3rem;
+}
+.about-me-img{
+   /* background-color: rgb(153, 24, 24); */
+   display: flex;
+   justify-content: center;
+}
+.about-me-img img {
+   filter: grayscale(1);
+}
+.about-me-text {
+   display: flex;
+   flex-direction: column;
+   /* align-content: center; */
+   margin: auto 0;
+}
+.about-me-text > p {
+   text-align: justify;
+   margin-bottom: 1rem;
+}
+
+
+/* ---------Contact-Section---------- */
+.contact > p {
+   margin-bottom: 1rem;
+}
+.contact-subhead {
+   font-size: 1.12rem;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+   .about-me {
+      flex-direction: column;
+      display: flex;
+   }
+   .about-me > div {
+      margin-bottom: 3rem;
+   }
+   .about-me-img {
+      display: flex;
+      justify-content: center;
+      margin-top: 1.5rem;
+   }
+   .about-me-img img {
+      height: 80%;
+      width: 80%;
+   }
+   .about-me-text > p {
+      text-align: center;
+   }
+}

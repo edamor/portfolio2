@@ -31,11 +31,11 @@ export default function Welcome() {
             
 
             <div className="button welcome-button">
-                  <p>
-               <Link to="/projects" className="welcome-button-link" >
+               <p>
+                  <Link to="/projects" className="welcome-button-link" >
                      View my projects
-               </Link>
-                  </p>
+                  </Link>
+               </p>
             </div>
          </div>
       </div>

@@ -6,7 +6,8 @@
          "githubUrl": "https://github.com/edamor/capstone-1",
          "image": "capstone1",
          "description": "The quick brown fox jumped over the lazy dog.",
-         "type": "project"
+         "type": "project",
+         "className": "card-1"
    },
    {
          "id": 2, 
@@ -15,7 +16,8 @@
          "githubUrl": "https://github.com/edamor/capstone2",
          "image": "capstone2", 
          "description": "The quick brown fox jumped over the lazy dog.",
-         "type": "project"
+         "type": "project",
+         "className": "card-2"
    },
    {
          "id": 3, 
@@ -24,15 +26,17 @@
          "githubUrl": "https://github.com/edamor/to-do-app-2", 
          "image": "todoapp",
          "description": "The quick brown fox jumped over the lazy dog.",
-         "type": "project"
+         "type": "project",
+         "className": "card-3"
    },
    {
          "id": 4, 
-         "title": "Cue MTC Online Store", 
+         "title": "Cue Online Store", 
          "liveUrl": "https://cuemultitrade.com/", 
          "githubUrl": "undefined", 
          "image": "cueonlinestore",
          "description": "The quick brown fox jumped over the lazy dog.",
-         "type": "live"
+         "type": "live",
+         "className": "card-4"
    }
 ]

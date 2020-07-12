@@ -1,0 +1,14 @@
+/* -----------Badge-Styles----------- */
+.badge {
+   background-color: #010101;
+   max-width: fit-content;
+   padding: 0.3rem 0.6rem;
+   margin: 0 0.2rem;
+   display: inline-block;
+   margin-bottom: 0.3rem;
+}
+
+.badge p {
+   color: #f0ece2;
+   font-size: 0.7rem;
+}

@@ -2,6 +2,7 @@ import React from 'react';
 import { useLocation } from 'react-router-dom';
 import Welcome from './Welcome/Welcome';
 import Projects from './Projects/Projects';
+import About from './About/About';
 
 export default function Container() {
 
@@ -14,11 +15,9 @@ export default function Container() {
          return (
             <Projects />
          )
-      } else if (pathname === "/contact") {
+      } else if (pathname === "/about") {
          return (
-            <div>
-               <p className="h3">contact</p>
-            </div>
+            <About />
          )
       } else return <Welcome />
    }

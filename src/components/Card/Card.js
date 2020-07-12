@@ -4,6 +4,7 @@ import capstone1 from '../../images/capstone1.jpg';
 import capstone2 from '../../images/capstone2.jpg';
 import todoapp from '../../images/todoapp.jpg';
 import cueonlinestore from '../../images/cueonlinestore.jpg';
+import Badge from '../Badge/Badge';
 
 
 export default function Card({item}) {
@@ -35,6 +36,49 @@ export default function Card({item}) {
          </div>
       )
    }
+
+   let showBadges = () => {
+      if (item.id === 1) {
+         return (
+            <div className="card-badge">
+               <Badge title="HTML/CSS" />
+               <Badge title="JavaScript" />
+               <Badge title="Bootstrap" />
+            </div>
+         )
+      } else if (item.id === 2) {
+         return (
+            <div className="card-badge">
+               <Badge title="HTML/CSS" />
+               <Badge title="JavaScript" />
+               <Badge title="Java" />
+               <Badge title="React JS" />
+               <Badge title="Spring Boot" />
+               <Badge title="React Router" />
+               <Badge title="Node JS" />
+               <Badge title="MySql" />
+               <Badge title="Heroku" />
+            </div>
+         )
+      } else if (item.id === 3) {
+         return (
+            <div className="card-badge">
+               <Badge title="HTML/CSS" />
+               <Badge title="JavaScript" />
+               <Badge title="React JS" />
+               <Badge title="React Router" />
+               <Badge title="Node JS" />
+            </div>
+         )
+      } else return (
+         <div className="card-badge">
+            <Badge title="HTML/CSS" />
+            <Badge title="JavaScript" />
+            <Badge title="Liquid" />
+            <Badge title="Shopify" />
+         </div>
+      )
+   }
    
 
          // <div className="card-description text-white">
@@ -44,15 +88,17 @@ export default function Card({item}) {
          // </div>
    
    return (
-      <div className="card">
+      <div className={`card ${item.className}`}>
          <div className="card-img">
-            <img src={showImage()} alt="Project Thumbnail" />
+            <img src={showImage()} alt={"Project Thumbnail"} height={"100%"} width={"100%"} />
          </div>
+         
          <p className="card-title h6 text-center">
             {item.title}
          </p>
-         
+         {showBadges()}
          {showLinks()}
+         
       </div>
    )
 }

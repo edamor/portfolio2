@@ -1,33 +1,27 @@
 /* ----------Card-Styles---------- */
 .card {
-   background-color: #acdbdfe0;
-   grid-column: span 2;
-   /* max-width: 480px; */
-   /* max-height: 320px; */
+   background-color: #222222;
+   grid-column: span 1;
+   width: 80%;
+   justify-self: center;
 }
 .card-img img {
-   width: 100%;
-   height: 100%;
    margin-bottom: 0.5rem;
 }
 .card-title {
    margin-bottom: 0.5rem;
-   color: #010101;
 }
 .card-link-project {
-   /* background-color: #010101; */
    font-size: 1rem;
    display: flex;
    justify-content: space-around;
-   /* display: grid; */
-   /* grid-template-columns: 1fr 1fr; */
    margin-bottom: 0.5rem;
    margin-left: 0.5rem;
    margin-right: 0.5rem;
 }
 .card-link-project a {
    text-decoration: none;
-   color: #acdbdf;
+   color: #f0ece2;
    background-color: #010101;
    transition: 0.15s linear;
 }
@@ -40,17 +34,16 @@
    padding: 0.5rem 1rem;
 }
 .card-link-site {
-   background-color: #010101;
    font-size: 1rem;
-   display: grid;
-   grid-template-columns: 1fr;
+   display: flex;
+   justify-content: center;
    margin-bottom: 0.5rem;
    margin-left: 0.5rem;
    margin-right: 0.5rem;
 }
 .card-link-site a {
    text-decoration: none;
-   color: #acdbdf;
+   color: #f0ece2;
    background-color: #010101;
    transition: 0.15s linear;
 }
@@ -61,6 +54,9 @@
 .card-link-site a p {
    text-align: center;
    padding: 0.5rem 1rem;
+}
+.card-badge {
+   margin-bottom: 0.5rem;
 }
 
 
@@ -73,5 +69,16 @@
 
 
 @media screen and (max-width: 768px) {
-  
+   .card {
+      grid-column: span 7;
+      width: 88%;
+   }
+   .card-link-project a {
+      color: #010101;
+      background-color: #acdbdf;
+   }
+   .card-link-site a {
+      color: #010101;
+      background-color: #acdbdf;
+   }
 }

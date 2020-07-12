@@ -48,7 +48,7 @@
   margin-top: 0.5rem;
 }
 .devicon path {
-  fill: #acdbdf;
+  fill: #f0ece2;
 }
 
 
@@ -73,7 +73,7 @@
   .welcome-button {
     background-color: #acdbdf;
   }
-  .welcome-button-link,.welcome-button-link p {
+  .welcome-button-link, .welcome-button-link p {
     color: #010101;
   }
 }
