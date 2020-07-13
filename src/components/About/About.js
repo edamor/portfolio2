@@ -1,10 +1,10 @@
 import React from 'react';
 import './style.css';
 import avatar from '../../images/avatar.jpg';
-import facebook from '../../images/svg/facebook.svg';
-import github from '../../images/svg/github-logo.svg';
-import gmail from '../../images/svg/gmail.svg';
-import linkedin from '../../images/svg/linkedin.svg';
+import { ReactComponent as Facebook } from '../../images/svg/facebook.svg';
+import { ReactComponent as Github } from '../../images/svg/github-logo.svg';
+import { ReactComponent as Gmail } from '../../images/svg/gmail.svg';
+import { ReactComponent as LinkedIn} from '../../images/svg/linkedin.svg';
 
 
 export default function About() {
@@ -17,7 +17,7 @@ export default function About() {
             <div className="about-me-img">
                <img src={avatar} alt={"My avatar goes here."} height={"50%"} width={"50%"} />
             </div>
-            <div className="about-me-text">
+            <div className="about-me-text text-white">
                <p>
                   I build websites and web applications with focus on performance and scalability. 
                   I build them from scratch or with common tools and modern frameworks.
@@ -29,15 +29,24 @@ export default function About() {
             </div>
          </div>
          <div className="contact">
-            <p className="contact-heading h5 text-center text-white">
+            <p className="contact-heading h5 text-center text-light-blue">
                What do you have in mind?
             </p>
             <p className="contact-subhead text-center text-white">
                Get in touch now and let's build it together.
             </p>
             <div className="contact-link">
-               <a href="mailto:amor.edlouise@gmail.com?subject=INQUIRY fr Website" >
-                  <img src={facebook} alt={"FaceBook logo goes here."} height={"2 rem"} width={"2 rem"} />
+               <a href="https://www.linkedin.com/in/ed-louise-amor-577a99196/" target="_blank" rel="noopener noreferrer">
+                  <LinkedIn fill={"#acdbdf"} height={"2.5rem"} width={"2.5rem"} />
+               </a>
+               <a href="mailto:amor.edlouise@gmail.com?subject=INQUIRY" >
+                  <Gmail fill={"#acdbdf"} height={"2.5rem"} width={"2.5rem"} />
+               </a>
+               <a href="https://www.facebook.com/ed.amor.31" target="_blank" rel="noopener noreferrer">
+                  <Facebook fill={"#acdbdf"} height={"2.5rem"} width={"2.5rem"} />
+               </a>
+               <a href="https://github.com/edamor" target="_blank" rel="noopener noreferrer">
+                  <Github fill={"#acdbdf"} height={"2.5rem"} width={"2.5rem"} />
                </a>
             </div>
          </div>
