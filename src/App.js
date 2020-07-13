@@ -1,12 +1,14 @@
-import React, { Suspense, lazy } from 'react';
+import React from 'react';
 import { BrowserRouter, Route, Switch} from 'react-router-dom';
-const Nav = lazy(() => import('./components/Nav/Nav'))
-const Child = lazy(() => import('./routes/Child'))
+// const Nav = lazy(() => import('./components/Nav/Nav'))
+// const Child = lazy(() => import('./routes/Child'))
+import Nav from './components/Nav/Nav';
+import Child from './routes/Child';
 
 function App() {
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
-        <Suspense fallback={<div className="loading-screen"><p className="h2 text-light-blue">Building...</p></div>} >
+        {/* <Suspense fallback={<div className="loading-screen"><p className="h2 text-light-blue">Building...</p></div>} > */}
 
           <div className="App">
             <Nav />
@@ -15,7 +17,7 @@ function App() {
                 <Route path="/:page" children={<Child />} />
               </Switch>
           </div>  
-        </Suspense>
+        {/* </Suspense> */}
 
     </BrowserRouter>
   );
