@@ -1,42 +1,161 @@
 [
-   {
-         "id": 1, 
-         "title": "Sining Online Gallery", 
-         "liveUrl": "https://edamor.github.io/capstone-1/", 
-         "githubUrl": "https://github.com/edamor/capstone-1",
-         "image": "capstone1",
-         "description": "The quick brown fox jumped over the lazy dog.",
-         "type": "project",
-         "className": "card-1"
-   },
-   {
-         "id": 2, 
-         "title": "Gym Equipment Manager", 
-         "liveUrl": "https://edamor.github.io/capstone2/", 
-         "githubUrl": "https://github.com/edamor/capstone2",
-         "image": "capstone2", 
-         "description": "The quick brown fox jumped over the lazy dog.",
-         "type": "project",
-         "className": "card-2"
-   },
-   {
-         "id": 3, 
-         "title": "To Do App", 
-         "liveUrl": "https://edamor.github.io/to-do-app-2/", 
-         "githubUrl": "https://github.com/edamor/to-do-app-2", 
-         "image": "todoapp",
-         "description": "The quick brown fox jumped over the lazy dog.",
-         "type": "project",
-         "className": "card-3"
-   },
-   {
-         "id": 4, 
-         "title": "Cue Online Store", 
-         "liveUrl": "https://cuemultitrade.com/", 
-         "githubUrl": "undefined", 
-         "image": "cueonlinestore",
-         "description": "The quick brown fox jumped over the lazy dog.",
-         "type": "live",
-         "className": "card-4"
-   }
+      {
+            "id": 1, 
+            "title": "Google Maps w/ Place Autocomplete", 
+            "liveUrl": 0, 
+            "githubUrl": "https://github.com/edamor/google-maps-places", 
+            "image": "googlemaps",
+            "description": "Placeholder",
+            "type": "project",
+            "className": "card-1",
+            "badges": [
+                  {
+                        "badge": "HTML/CSS"
+                  },
+                  {
+                        "badge": "JavaScript"
+                  },
+                  {
+                        "badge": "React JS"
+                  },
+                  {
+                        "badge": "Google Maps API"
+                  },
+                  {
+                        "badge": "Google Places API"
+                  }
+            ]
+      },
+      {
+            "id": 2, 
+            "title": "Gym Equipment Manager", 
+            "liveUrl": "https://edamor.github.io/capstone2/", 
+            "githubUrl": "https://github.com/edamor/capstone2",
+            "image": "capstone2", 
+            "description": "The quick brown fox jumped over the lazy dog.",
+            "type": "project",
+            "className": "card-2",
+            "badges": [
+                  {
+                        "badge": "HTML/CSS"
+                  },
+                  {
+                        "badge": "JavaScript"
+                  },
+                  {
+                        "badge": "Java"
+                  },
+                  {
+                        "badge": "React JS"
+                  },
+                  {
+                        "badge": "Spring Boot"
+                  },
+                  {
+                        "badge": "React Router"
+                  },
+                  {
+                        "badge": "Node JS"
+                  },
+                  {
+                        "badge": "MySql"
+                  },
+                  {
+                        "badge": "Heroku"
+                  }
+            ]
+      },
+      {
+            "id": 3, 
+            "title": "To Do App", 
+            "liveUrl": "https://edamor.github.io/to-do-app-2/", 
+            "githubUrl": "https://github.com/edamor/to-do-app-2", 
+            "image": "todoapp",
+            "description": "The quick brown fox jumped over the lazy dog.",
+            "type": "project",
+            "className": "card-3",
+            "badges": [
+                  {
+                        "badge": "HTML/CSS"
+                  },
+                  {
+                        "badge": "JavaScript"
+                  },
+                  {
+                        "badge": "React JS"
+                  },
+                  {
+                        "badge": "React Router"
+                  },
+                  {
+                        "badge": "Node JS"
+                  }
+            ]
+      },
+      {
+            "id": 4, 
+            "title": "Cue Online Store", 
+            "liveUrl": "https://cuemultitrade.com/", 
+            "githubUrl": 0, 
+            "image": "cueonlinestore",
+            "description": "The quick brown fox jumped over the lazy dog.",
+            "type": "live",
+            "className": "card-4",
+            "badges": [
+                  {
+                        "badge": "HTML/CSS"
+                  },
+                  {
+                        "badge": "JavaScript"
+                  },
+                  {
+                        "badge": "Liquid"
+                  },
+                  {
+                        "badge": "Shopify"
+                  }
+            ]
+      },
+      {
+            "id": 5,
+            "title": "Sining Online Gallery",
+            "liveUrl": "https://edamor.github.io/capstone-1/",
+            "githubUrl": "https://github.com/edamor/capstone-1",
+            "image": "capstone1",
+            "description": "The quick brown fox jumped over the lazy dog.",
+            "type": "project",
+            "className": "card-5",
+            "badges": [
+                  {
+                        "badge": "HTML/CSS"
+                  },
+                  {
+                        "badge": "JavaScript"
+                  },
+                  {
+                        "badge": "Bootstrap"
+                  }
+            ]
+      },
+      {
+            "id": 6, 
+            "title": "Simple HTML Canvas Animation", 
+            "liveUrl": "https://edamor.github.io/canvas-1/", 
+            "githubUrl": "https://github.com/edamor/canvas-1", 
+            "image": "canvasproj",
+            "description": "Placeholder",
+            "type": "project",
+            "className": "card-6",
+            "badges": [
+                  {
+                        "badge": "HTML/CSS"
+                  },
+                  {
+                        "badge": "JavaScript"
+                  },
+                  {
+                        "badge": "HTML Canvas"
+                  }
+            ]
+      }
 ]

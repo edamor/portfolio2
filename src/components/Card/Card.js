@@ -4,88 +4,52 @@ import capstone1 from '../../images/capstone1.jpg';
 import capstone2 from '../../images/capstone2.jpg';
 import todoapp from '../../images/todoapp.jpg';
 import cueonlinestore from '../../images/cueonlinestore.jpg';
+import canvasproj from '../../images/canvasproj.jpg';
+import googlemaps from '../../images/googlemaps.jpg';
 import Badge from '../Badge/Badge';
 
 
 export default function Card({item}) {
    let showImage = () => (
-      item.image === "capstone1" ? capstone1 :
-      item.image === "capstone2" ? capstone2 :
-      item.image === "todoapp" ? todoapp :
-      item.image === "cueonlinestore" ? cueonlinestore :
+      item.id === 1 ? googlemaps :
+      item.id === 2 ? capstone2 :
+      item.id === 3 ? todoapp :
+      item.id === 4 ? cueonlinestore :
+      item.id === 5 ? capstone1 :
+      item.id === 6 ? canvasproj :
       "" 
    )
 
    let showLinks = () => {
-      if (item.type === "project") {
-         return (
-            <div className="card-link-project">   
-               <a href={item.liveUrl} target="_blank" rel="noopener noreferrer" >
-                  <p>Live Demo</p>
-               </a>
-               <a href={item.githubUrl} target="_blank" rel="noopener noreferrer" >
-                  <p>View Code</p>
-               </a>
-            </div>
-         )
+      if (!item.githubUrl || !item.liveUrl) {
+         if (!item.githubUrl && item.liveUrl) {
+            return (
+               <div className="card-link-site">
+                  <a href={item.liveUrl} target="_blank" rel="noopener noreferrer" >
+                     <p>View Site</p>
+                  </a>
+               </div>
+            )
+         } else if (!item.liveUrl && item.githubUrl) {
+            return (
+               <div className="card-link-project">
+                  <a href={item.githubUrl} target="_blank" rel="noopener noreferrer" >
+                     <p>View Code</p>
+                  </a>
+               </div>
+            )
+         }
       } else return (
-         <div className="card-link-site">
+         <div className="card-link-project">
             <a href={item.liveUrl} target="_blank" rel="noopener noreferrer" >
-               <p>View Site</p>
+               <p>Live Demo</p>
+            </a>
+            <a href={item.githubUrl} target="_blank" rel="noopener noreferrer" >
+               <p>View Code</p>
             </a>
          </div>
       )
    }
-
-   let showBadges = () => {
-      if (item.id === 1) {
-         return (
-            <div className="card-badge">
-               <Badge title="HTML/CSS" />
-               <Badge title="JavaScript" />
-               <Badge title="Bootstrap" />
-            </div>
-         )
-      } else if (item.id === 2) {
-         return (
-            <div className="card-badge">
-               <Badge title="HTML/CSS" />
-               <Badge title="JavaScript" />
-               <Badge title="Java" />
-               <Badge title="React JS" />
-               <Badge title="Spring Boot" />
-               <Badge title="React Router" />
-               <Badge title="Node JS" />
-               <Badge title="MySql" />
-               <Badge title="Heroku" />
-            </div>
-         )
-      } else if (item.id === 3) {
-         return (
-            <div className="card-badge">
-               <Badge title="HTML/CSS" />
-               <Badge title="JavaScript" />
-               <Badge title="React JS" />
-               <Badge title="React Router" />
-               <Badge title="Node JS" />
-            </div>
-         )
-      } else return (
-         <div className="card-badge">
-            <Badge title="HTML/CSS" />
-            <Badge title="JavaScript" />
-            <Badge title="Liquid" />
-            <Badge title="Shopify" />
-         </div>
-      )
-   }
-   
-
-         // <div className="card-description text-white">
-         //    <p>
-         //       {item.description}
-         //    </p>
-         // </div>
    
    return (
       <div className={`card ${item.className}`}>
@@ -96,9 +60,10 @@ export default function Card({item}) {
          <p className="card-title h6 text-center">
             {item.title}
          </p>
-         {showBadges()}
+         <div className="card-badge">
+            {item.badges.map(({ badge }) => <Badge title={badge} />)}
+         </div>
          {showLinks()}
-         
       </div>
    )
 }
