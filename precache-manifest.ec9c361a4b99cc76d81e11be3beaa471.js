@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0013bab8b51f0427a4a5d5e5c8405cc8",
+    "revision": "82bc03791ec526cc0232e7fd750eb0a1",
     "url": "/index.html"
   },
   {
-    "revision": "dac335bc07fa526bcc89",
+    "revision": "d1e2f45d7a6b7b72875d",
     "url": "/static/css/main.541d9d7f.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.0793f0a6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dac335bc07fa526bcc89",
-    "url": "/static/js/main.c6fadf84.chunk.js"
+    "revision": "d1e2f45d7a6b7b72875d",
+    "url": "/static/js/main.48442086.chunk.js"
   },
   {
     "revision": "05891905a4e771f9bce7",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6d55d0f108dcefa64639ea5dba3fd21e",
     "url": "/static/media/avatar.32be0108.jpg"
+  },
+  {
+    "revision": "4fec13a0def888233ab3c15631e0f73e",
+    "url": "/static/media/canvasproj.3937c0ba.jpg"
   },
   {
     "revision": "6d7dc4dcb24ccb9d1af0c5152b0f7f10",
@@ -50,6 +54,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6e40f6fb3b984d57f3d224f0e50b20c4",
     "url": "/static/media/gmail.6e40f6fb.svg"
+  },
+  {
+    "revision": "6427140a5ede2d0fd126515d1663297d",
+    "url": "/static/media/googlemaps.787c67c8.jpg"
   },
   {
     "revision": "838f6035a2d2853f8fa5692663c6a6e3",
