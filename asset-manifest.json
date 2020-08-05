@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.541d9d7f.chunk.css",
-    "main.js": "/static/js/main.48442086.chunk.js",
-    "main.js.map": "/static/js/main.48442086.chunk.js.map",
+    "main.js": "/static/js/main.29ed4ddd.chunk.js",
+    "main.js.map": "/static/js/main.29ed4ddd.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.36987e65.js",
     "runtime-main.js.map": "/static/js/runtime-main.36987e65.js.map",
     "static/js/2.0793f0a6.chunk.js": "/static/js/2.0793f0a6.chunk.js",
     "static/js/2.0793f0a6.chunk.js.map": "/static/js/2.0793f0a6.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ec9c361a4b99cc76d81e11be3beaa471.js": "/precache-manifest.ec9c361a4b99cc76d81e11be3beaa471.js",
+    "precache-manifest.fd4e2425975859f64f0eec9881de4b4c.js": "/precache-manifest.fd4e2425975859f64f0eec9881de4b4c.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.541d9d7f.chunk.css.map": "/static/css/main.541d9d7f.chunk.css.map",
     "static/js/2.0793f0a6.chunk.js.LICENSE.txt": "/static/js/2.0793f0a6.chunk.js.LICENSE.txt",
@@ -16,6 +16,7 @@
     "static/media/canvasproj.3937c0ba.jpg": "/static/media/canvasproj.3937c0ba.jpg",
     "static/media/capstone1.5bb64a40.jpg": "/static/media/capstone1.5bb64a40.jpg",
     "static/media/capstone2.1ca3f7c8.jpg": "/static/media/capstone2.1ca3f7c8.jpg",
+    "static/media/capstone3.e3cbbade.jpg": "/static/media/capstone3.e3cbbade.jpg",
     "static/media/cueonlinestore.b3789a82.jpg": "/static/media/cueonlinestore.b3789a82.jpg",
     "static/media/facebook.15f5f193.svg": "/static/media/facebook.15f5f193.svg",
     "static/media/github-logo.32283864.svg": "/static/media/github-logo.32283864.svg",
@@ -28,6 +29,6 @@
     "static/js/runtime-main.36987e65.js",
     "static/js/2.0793f0a6.chunk.js",
     "static/css/main.541d9d7f.chunk.css",
-    "static/js/main.48442086.chunk.js"
+    "static/js/main.29ed4ddd.chunk.js"
   ]
 }
